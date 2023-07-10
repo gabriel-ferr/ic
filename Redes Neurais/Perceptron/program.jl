@@ -6,7 +6,8 @@
 #   de uma rede neural baseada em perceptrons de múltipla camada com o Flux.    #
 #                                                                               #
 #       Para mais informações sobre o código acesse os arquivos relacionados    #
-#   no GitHub:
+#   no GitHub:                                                                  #
+#   https://github.com/gabriel-ferr/ic/tree/main/Redes%20Neurais/Perceptron     #
 # ============================================================================= #
 #
 #   Bibliotecas utilizadas no projeto
