@@ -103,7 +103,7 @@ end
 for c = 1:length(y_filter)
 
     #       Calcula os valores.
-    psd = BrainFlow.get_psd_welch(y_filter[1], nfft, Integer(nfft / 2), Integer(250), BrainFlow.BLACKMAN_HARRIS)
+    psd = BrainFlow.get_psd_welch(y_filter[c], nfft, Integer(nfft / 2), Integer(250), BrainFlow.BLACKMAN_HARRIS)
 
     graph = plot(psd[2][:], psd[1][:])
     png(graph, "Output/Frequency/graph_" * string(c))
